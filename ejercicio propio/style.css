@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.title{
+    text-align: center;
+    letter-spacing: 0px;
+    margin-bottom: 35px;
+    margin-top: -30px;
+}
+
+.cuerpoTodolist{
+    text-align: center;
+    width: 450px;
+    height: 450px;
+    background: #9FD5D1;
+    border-style: double;
+    color: black;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 10px;
+    margin-top: 50px;
+}
+.container{
+    display: grid;
+    grid-template:
+                "value button" 30px /
+                250px 150px;
+    justify-content: center;
+}
+.textArea{
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.button{
+    grid-area: button;
+    width: 45px;
+    background-color:salmon;
+    margin-left: 45px;
+    border-radius: 5px;
+}
+.taskList{
+    /* text-align: left;    */
+    margin-top: 20px;
+    /* margin-left: 38px;
+    margin-bottom: 5px;
+    margin-right: 1em; */
+}
+.resultFather{
+    display: grid;
+    grid-template:
+                "check child" 25px /
+                30px 60px;
+}
+/* .check{
+    grid-area: check;
+} */
+.child{
+    /* grid-area: child; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* .deleteTask{
+    display: grid;
+    grid-template:
+                "value button" 20px /
+                40px 15px;
+    align-items: center;
+    text-align: end;
+    color: black;
+} */
+
